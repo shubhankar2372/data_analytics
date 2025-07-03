@@ -18,3 +18,5 @@ def screeningResult(age,weight):
         eligible=False
     return eligible
       
+print(screeningResult(28, 70))  # Expected output: True
+print(screeningResult(32, 80))  # Expected output: True
